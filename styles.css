@@ -1,0 +1,111 @@
+/* Global */
+
+body {
+    margin: 0;
+    font-family: 'karla', sans-serif;
+    font-size: 1rem;
+    background-color: whitesmoke;
+    color: #fff;
+    line-height: 1.5;
+}
+
+#main-container {
+    margin: 100px auto;
+    width: 40%;
+    border-radius: 10px;
+}
+
+.bottom-container-wrap {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    width: 100%;
+}
+
+#main-container,
+.signup-button {
+    box-shadow: 0 0 20px 8px rgba(0, 0, 0, .20);
+}
+
+
+/* top-section */
+
+#join-us-container {
+    background-color: white;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    width: 100%;
+}
+
+.join-us-content-container {
+    padding: 30px 50px;
+}
+
+.join-us-content-container h1 {
+    color: hsl(179, 62%, 43%);
+}
+
+.join-us-content-container h3 {
+    color: hsl(71, 73%, 54%);
+}
+
+.join-us-content-container p {
+    color: hsl(218, 22%, 67%);
+}
+
+
+/* Bottom Left Section */
+
+#monthly-subrscritption-container {
+    background-color: hsl(179, 50%, 43%);
+    /* border-bottom-left-radius: 10px; */
+    width: 100%;
+}
+
+.subscription-content-container {
+    padding: 30px 50px 40px 40px;
+    color: hsl(204, 43%, 93%);
+}
+
+.subscription-content-container span {
+    font-size: 2rem;
+    font-weight: 700;
+    color: white;
+}
+
+.signup-button {
+    background-color: hsl(71, 73%, 54%);
+    border-style: none;
+    border-radius: 6px;
+    color: white;
+    font-size: 1rem;
+    width: 100%;
+    margin-top: 5px;
+    padding: 15px;
+}
+
+
+/* Bottom Right Section */
+
+#about-us-container {
+    background-color: hsl(179, 75%, 43%);
+    border-bottom-right-radius: 10px;
+}
+
+.about-content-container {
+    padding: 30px 0px 40px 40px;
+}
+
+.about-content-container ul {
+    padding: 0;
+    list-style: none;
+}
+
+@media only screen and (max-width: 375px) {
+    #main-container {
+        width: 90%;
+    }
+    .bottom-container-wrap {
+        display: grid;
+        grid-template-rows: max-content;
+    }
+}
